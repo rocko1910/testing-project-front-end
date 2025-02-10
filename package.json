@@ -7,17 +7,20 @@
     "@emotion/styled": "^11.14.0",
     "@mui/material": "^6.1.10",
     "axios": "^1.7.9",
+    "chai": "^5.1.2",
     "cra-template": "1.2.0",
+    "mocha": "^11.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router-dom": "^7.0.2",
     "react-scripts": "5.0.1",
-    "react-transition-group": "^4.4.5"
+    "react-transition-group": "^4.4.5",
+    "selenium-webdriver": "^4.28.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "mocha --timeout 15000",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
